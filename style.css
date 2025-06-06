@@ -74,6 +74,23 @@ header p {
   border: none;
 }
 
+.portrait-video-wrapper {
+  max-width: 50%;
+  width: 50%;
+  aspect-ratio: 9 / 16;
+  display: flex;
+  justify-content: center;
+  background: black;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.portrait-video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 /* Horizontal Divider */
 hr {
   border: none;
